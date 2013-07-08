@@ -1,6 +1,6 @@
 
 /*	mediaWindow.js version 0.1.0
-*	
+*	Mashiya
 *	by Farbod Motlagh
 */
 
