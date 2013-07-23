@@ -18,6 +18,7 @@
 
     this._options = {
 
+
       nextAndPrevButtons: true,
       
       defaultWidth: 800,
@@ -34,6 +35,10 @@
       
       maxWidth: 900,
       maxHeight: 600,
+
+      socialButtons: true,
+      facebookCode: '',
+      twitterCode: '',
       
       timeOut: 15000,
       JSONurl: '',
@@ -556,15 +561,15 @@
     }
     i = null;
     //Social Buttons
-    /*var twitter = $('');
-    var facebook = $('');
+    var twitter = $(self._options.facebookCode);
+    var facebook = $(self._options.twitterCode);
     boxEl.find('.mediawindow-social-table').append(facebook);
     boxEl.find('.mediawindow-social-table').append(twitter);
     window.FB.XFBML.parse(document,function(){
       $('.fb_edge_widget_with_comment iframe').css('z-index','99999999');
       boxEl.find('.mediawindow-social-table').css('visibility','visible');
     });
-    window.twttr.widgets.load();*/
+    window.twttr.widgets.load();
     boxEl.find('.mediawindow-social-table').css('visibility','visible');
     boxEl.find('.mediawindow-social-table').height(85);
     //Social Buttons
