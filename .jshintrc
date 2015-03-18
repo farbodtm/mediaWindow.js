@@ -1,5 +1,6 @@
+// jshintrc for mediaWindow.js 
 {
-	"laxcomma" : true,
+	"laxcomma" : true, // comma first style
 	"strict" : false,
 	"smarttabs" : true
 }
