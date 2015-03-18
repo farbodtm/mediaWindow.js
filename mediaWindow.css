@@ -5,6 +5,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
+/*
+ * all the classes starting with mediawindow- should be reserved for mediaWindow.js
+ */
+
 .mediawindow-overlay {
   width: 100%;
   height: 100%;
@@ -37,7 +41,7 @@
 
   position: fixed;
 
-  z-index: 99999996;
+  z-index: 999996;
 
   background-color: #FFF;
   color: #000;
