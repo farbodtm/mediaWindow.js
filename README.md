@@ -8,9 +8,12 @@ Image, Video, Audio, Text.
 
 mediaWindow.js works with jQuery and flowplayer. (flowplayer will be replaced by HTML5 media soon)
 
-jQuery (http://jquery.com/)
-flowplayer (https://flowplayer.org/player/)
+* jQuery (http://jquery.com/)
+* flowplayer (https://flowplayer.org/player/)
 
+
+How to use
+=============
 
 You can initialize mediaWindow with two lines.
 
@@ -45,7 +48,10 @@ mw.openWindow(1, callback function);
 
 Roadmap
 ===========
-
 * Replace flowplayer with HTML5 media
 * Fix social buttons behaviour
 * Work on graphic
+
+Licence
+==========
+MIT
