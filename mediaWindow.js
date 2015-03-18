@@ -55,7 +55,7 @@
   /* Initialization of mediaWindow.js
    * 
    * takes the JSON file's address and save it in '_options.JSONurl'
-   * takes calls _getData function to make ajax call for getting JSON data
+   * calls _getData function to make ajax call for getting JSON data
    * copies maxs and mins since these variables can be changed in future
    *
    * @api - public
@@ -330,7 +330,7 @@
     _removeBox();
     // detach the keydown event from window object
     $(window).off('keydown');
-    // if 'reset' is true, which means that user has closed the mediaWindow, it will call _getData if the query has been changed
+    // if 'reset' is true, which means that user has closed the mediaWindow, it will call _getData if the query is changed
     if(reset){
       var pageQuery = _cloneObject(this._mainQuery);
       _getData.call(this, pageQuery);
@@ -618,7 +618,7 @@
 
         //Trigger FlowPlayer - Optimized for Music
         flowplayer("mediawindow-player",{
-            src:"http://www.greens-art.net/js/flowplayer-3.2.16.swf",
+            src:"/flowplayer-3.2.16.swf",
             wmode: "opeque" // This allows the HTML to hide the flash content
             },{
           plugins: {
