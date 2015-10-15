@@ -22,7 +22,7 @@ var mw = mediaWindow();
 mw.init('data.json');
 ```
 
-data.json is a JSON file that contains media objects' data.
+data.json is a JSON file that contains media objects.
 an example of a valid data.json for mediaWindow (see example/data.json for more examples)
 ```JSON
 {
